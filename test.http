@@ -1,0 +1,13 @@
+GET http://localhost:4000/api/v1/validator/email
+Content-Type: application/json
+
+{ 
+    "email": "noemail@gmail.com" 
+}
+###
+GET http://localhost:4000/api/v1/validator/phone
+Content-Type: application/json
+
+{ 
+    "phone": "+880 (1757) 646-854" 
+}
